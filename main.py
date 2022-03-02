@@ -6,5 +6,3 @@ def slack_push(event):
     response = webhook.send(text=event)
 
     return response
-
-slack_push('asd')
